@@ -6,7 +6,7 @@ import './App.css'
 import Contact from './Contact.jsx'
 
 function App() {
-  const [activePage, setActivePage] = useState('Home');
+  const [count, setCount] = useState(0)
 
   return (
     <>
