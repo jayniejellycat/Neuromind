@@ -4,15 +4,24 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Contact from './Contact.jsx'
+import FAQ from './FAQ.jsx'
+
 
 function App() {
-  const [activePage, setActivePage] = useState('Home');
+ const [count, setCount] = useState(0)
 
-  return (
-    <>
-     <Contact />
-    </>
-  );
+
+ return (
+   <>
+    <Contact />
+    <FAQ />
+   </>
+ );
 }
 
-export default App; 
+
+export default App;
+
+
+
+

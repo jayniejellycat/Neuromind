@@ -1,0 +1,38 @@
+
+
+.page title {
+    color: var(--deep-olive);
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin: 0 0 8px;
+  }
+   .page-subtitle {
+    color: var(--warm-gray);
+    font-size: 18px;
+    margin: 0 0 40px;
+  }
+  .contact h1 {
+    color: var(--warm-gray);
+    font-size: 18px;
+    margin: 0 0 40px;
+  }
+  .contact p{
+    color: var(--warm-gray);
+    font-size: 18px;
+    margin: 0 0 40px;
+ 
+ 
+  }
+  .contact button {
+    color: var(--deep-olive);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 25px;
+    margin: 50px;
+  }
+ 
